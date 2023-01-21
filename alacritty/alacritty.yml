@@ -1,0 +1,33 @@
+import:
+  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+
+window:
+  opacity: 0.9
+
+  dimensions:
+    columns: 120
+    lines: 30
+
+  padding:
+    x: 5
+    y: 5
+
+  title: Alacritty
+
+font:
+  normal:
+    family: CaskaydiaCove Nerd Font
+
+cursor:
+  style:
+    blinking: on
+
+  blink_interval: 400
+
+shell:
+  program: /bin/fish
+  args:
+    - --login
+    - --init-command
+    - ""
+
