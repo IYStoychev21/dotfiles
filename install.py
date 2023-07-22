@@ -12,7 +12,7 @@ def link_to_dot_config(app):
     subprocess.run(f"sudo ln -s /home/{user}/dotfiles/{app} /home/{user}/.config/{app}", shell=True)
 
 # ----------------- ALL CONFINGS THAT NEED TO GO TO .CONFIG FOLDER ----------------
-apps_for_dot_config = ["alacritty", "dunst", "fish", "hypr", "waybar", "starship.toml", "wofi"]
+apps_for_dot_config = ["alacritty", "dunst", "fish", "hypr", "starship.toml", "wofi", "eww"]
 
 if platform.system() == "Linux":
    for i in apps_for_dot_config:

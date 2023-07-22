@@ -6,5 +6,4 @@ allow_images=true
 hide_scroll=true
 insensitive=true
 height=40%
-normal_window=true
 image_size=48
