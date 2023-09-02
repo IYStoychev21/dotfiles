@@ -7,5 +7,3 @@
 * Wofi
 * Starship
 * Python
-## <h2> Screenshots </h2>
-![image of a really nice desktop](./screenshots/screenshot-full.png)
