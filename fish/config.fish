@@ -1,6 +1,6 @@
 if status is-interactive
 
-neofetch
+freshfetch
 starship init fish | source
 
 set fish_greeting

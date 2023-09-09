@@ -64,9 +64,9 @@ colors: *tokyo-night
 window:
   opacity: 0.8
 
-    #dimensions:
-    #columns: 120
-    #lines: 30
+  dimensions:
+    columns: 120
+    lines: 30
 
   padding:
     x: 5
