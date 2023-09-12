@@ -49,4 +49,11 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'},     -- Required
 	  }
   }
+
+  use {
+      'numToStr/Comment.nvim',
+      config = function()
+          require('Comment').setup()
+      end
+  }
 end)
