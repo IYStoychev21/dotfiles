@@ -1,0 +1,8 @@
+config_paths:
+  - ~/.config/nvim
+  - ~/.config/alacritty
+  - ~/.config/fish
+  - ~/.config/starship.toml
+  - ~/.config/eww
+  - ~/.config/hypr
+  - ~/.config/wofi
