@@ -5,3 +5,4 @@ config_paths:
   - ~/.config/starship.toml
   - ~/.config/hypr
   - ~/.config/wofi
+  - ~/.config/ags

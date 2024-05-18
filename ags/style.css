@@ -1,0 +1,50 @@
+
+.bar {
+    font-size: 18px;
+    background: transparent;
+}
+
+button {
+    border: none;
+    padding: 0;
+    background: transparent;
+}
+
+.ws_button {
+    padding: 0 6px;
+    border-radius: 0;
+}
+
+.ws_button:hover {
+    background: #10002b;
+}
+
+.workspaces {
+    background: #240046;
+    padding: 0 15px 0 0;
+    border-radius: 0 0 8px 0px;
+    margin: -1px 0 0 -1px;
+}
+
+.center {
+    background: #240046;
+    padding: 0 15px;
+    border-radius: 0 0 8px 8px;
+    margin: -1px 0 0 0;
+}
+
+.focused {
+    background: #3c096c;
+    border-radius: 0;
+}
+
+.sys_tray_button {
+    padding: 6px;
+}
+
+.end {
+    padding: 0 15px;
+    background: #240046;
+    border-radius: 0 0 0 8px;
+    margin: -1px -1px 0 0;
+}
