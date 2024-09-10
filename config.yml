@@ -6,3 +6,4 @@ config_paths:
   - ~/.config/hypr
   - ~/.config/wofi
   - ~/.config/ags
+  - ~/.config/zed
