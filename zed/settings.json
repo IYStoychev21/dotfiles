@@ -11,7 +11,7 @@
   "buffer_font_size": 16,
   "theme": {
     "mode": "system",
-    "light": "One Light",
+    "light": "Tokyo Night Storm",
     "dark": "Tokyo Night Storm"
   },
   "vim_mode": true,

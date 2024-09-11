@@ -4,6 +4,5 @@ config_paths:
   - ~/.config/fish
   - ~/.config/starship.toml
   - ~/.config/hypr
-  - ~/.config/wofi
-  - ~/.config/ags
   - ~/.config/zed
+  - ~/.config/waybar

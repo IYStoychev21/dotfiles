@@ -33,7 +33,7 @@ family = "CaskaydiaCove Nerd Font"
 
 [shell]
 args = ["--login", "--init-command", ""]
-program = "/bin/fish"
+program = "fish"
 
 [window]
 opacity = 0.8
