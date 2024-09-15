@@ -47,6 +47,9 @@ tooltip * {
   background: none;
   margin-left: -5px;
 }
+#language {
+  color: #f1faee;
+}
 #workspaces button:hover {
   color: #a6da95;
 }
@@ -55,6 +58,9 @@ tooltip * {
 }
 #temperature {
   color: #eed49f;
+}
+#network {
+  color: #8ecae6;
 }
 #clock {
   font-weight: 600;

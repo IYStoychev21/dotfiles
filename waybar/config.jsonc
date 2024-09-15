@@ -13,19 +13,36 @@
     "hyprland/workspaces"
   ],
   "modules-right": [
+    "network",
+    "custom/sep",
     "temperature",
     "custom/sep",
-    "pulseaudio"
-    // "custom/powermenu"
+    "pulseaudio",
+    "custom/sep",
+    "hyprland/language",
   ],
   "custom/sep": {
     "format": "──"
     //"format": ""
   },
+  "hyprland/language": {
+    "format": "    {}",
+    "format-en": "EN",
+    "format-bg": "BGP",
+    "rotate": 90
+  },
   "custom/powermenu": {
-    "on-click": "~/.config/wofi/scripts/wofipowermenu.py",
+    "on-click": "rofi -show drun",
     "format": "",
     "tooltip": false
+  },
+  "network": {
+    "format-ethernet": "  ",
+    "format-wifi": "  {essid}",
+    "format-disconnected": "  ",
+    "max-length": 50,
+    "rotate": 90,
+    "on-click": "alacritty -e 'nmtui'"
   },
   "hyprland/workspaces": {
     "format": "{icon}",
