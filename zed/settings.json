@@ -20,5 +20,6 @@
   "project_panel": {
     "dock": "right"
   },
-  "relative_line_numbers": true
+  "relative_line_numbers": true,
+  "tab_size": 4
 }

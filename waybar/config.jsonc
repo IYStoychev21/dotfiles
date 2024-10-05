@@ -38,7 +38,7 @@
   },
   "network": {
     "format-ethernet": "  ",
-    "format-wifi": "  {essid}",
+    "format-wifi": "   {essid}",
     "format-disconnected": "  ",
     "max-length": 50,
     "rotate": 90,
