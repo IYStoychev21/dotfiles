@@ -32,7 +32,7 @@ blinking = "on"
 family = "CaskaydiaCove Nerd Font"
 
 [shell]
-args = ["--login", "--init-command", ""]
+args = ["--login", "--init-command", "zellij"]
 program = "fish"
 
 [window]
