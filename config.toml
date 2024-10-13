@@ -1,0 +1,27 @@
+[[config_locations]]
+from = "~/dotfiles/nvim"
+to = "~/.config/nvim"
+
+[[config_locations]]
+from = "~/dotfiles/fish"
+to = "~/.config/fish"
+
+[[config_locations]]
+from = "~/dotfiles/starship.toml"
+to = "~/.config/starship.toml"
+
+[[config_locations]]
+from = "~/dotfiles/hypr"
+to = "~/.config/hypr"
+
+[[config_locations]]
+from = "~/dotfiles/zed"
+to = "~/.config/zed"
+
+[[config_locations]]
+from = "~/dotfiles/waybar"
+to = "~/.config/waybar"
+
+[[config_locations]]
+from = "~/dotfiles/zellij"
+to = "~/.config/zellij"

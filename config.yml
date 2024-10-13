@@ -1,9 +1,0 @@
-config_paths:
-  - ~/.config/nvim
-  - ~/.config/alacritty
-  - ~/.config/fish
-  - ~/.config/starship.toml
-  - ~/.config/hypr
-  - ~/.config/zed
-  - ~/.config/waybar
-  - ~/.config/zellij
