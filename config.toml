@@ -25,3 +25,7 @@ to = "~/.config/waybar"
 [[config_locations]]
 from = "~/dotfiles/zellij"
 to = "~/.config/zellij"
+
+[[config_locations]]
+from = "~/dotfiles/alacritty"
+to = "~/.config/alacritty"
