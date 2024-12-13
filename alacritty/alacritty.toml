@@ -31,7 +31,7 @@ blinking = "on"
 [font.normal]
 family = "CaskaydiaCove Nerd Font"
 
-[shell]
+[terminal.shell]
 args = ["--login", "--init-command", "zellij"]
 program = "fish"
 
@@ -46,3 +46,5 @@ lines = 30
 [window.padding]
 x = 5
 y = 5
+
+[terminal]
