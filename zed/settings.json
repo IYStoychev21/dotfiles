@@ -7,19 +7,19 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
-  "theme": {
-    "mode": "system",
-    "light": "Catppuccin Frappé",
-    "dark": "Tokyo Night Storm"
-  },
-  "vim_mode": true,
-  "buffer_font_family": "CaskaydiaCove Nerd Font",
-  "formatter": "language_server",
-  "project_panel": {
-    "dock": "right"
-  },
-  "relative_line_numbers": true,
-  "tab_size": 4
+    "ui_font_size": 16,
+    "buffer_font_size": 16,
+    "theme": {
+        "mode": "system",
+        "light": "Tokyo Night Storm",
+        "dark": "Tokyo Night Storm"
+    },
+    "project_panel": {
+        "dock": "right"
+    },
+    "vim_mode": true,
+    "buffer_font_family": "CaskaydiaCove Nerd Font",
+    "formatter": "language_server",
+    "relative_line_numbers": true,
+    "tab_size": 4
 }

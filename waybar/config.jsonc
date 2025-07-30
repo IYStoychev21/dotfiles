@@ -1,42 +1,29 @@
 {
     "layer": "top",
-    "position": "left",
-    "width": 28,
+    "position": "top",
     "margin": "2 0 2 2",
     "spacing": 2,
     "modules-left": [
-        "clock",
-        "custom/sep",
-        "tray"
-    ],
-    "modules-center": [
         "hyprland/workspaces"
     ],
+    "modules-center": [],
     "modules-right": [
         "network",
-        "custom/sep",
         "temperature",
-        "custom/sep",
         "pulseaudio",
-        "custom/sep",
         "battery",
-        "custom/sep",
         "hyprland/language",
+        "tray",
+        "clock"
     ],
-    "custom/sep": {
-        "format": "──"
-        //"format": ""
-    },
     "battery": {
         "format": "    {capacity}%",
-        "max-length": 50,
-        "rotate": 90
+        "max-length": 50
     },
     "hyprland/language": {
         "format": "    {}",
         "format-en": "EN",
-        "format-bg": "BGP",
-        "rotate": 90
+        "format-bg": "BGP"
     },
     "custom/powermenu": {
         "on-click": "rofi -show drun",
@@ -48,7 +35,6 @@
         "format-wifi": "   {essid}",
         "format-disconnected": "  ",
         "max-length": 50,
-        "rotate": 90,
         "on-click": "alacritty -e 'nmtui'"
     },
     "hyprland/workspaces": {
@@ -64,15 +50,14 @@
     },
     "clock": {
         "tooltip": true,
-        "format": "{:%H\n%M}",
-        "tooltip-format": "{:%Y-%m-%d}",
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%Y-%m-%d}"
     },
     "tray": {
         "icon-size": 18,
         "show-passive-items": "true"
     },
     "temperature": {
-        "rotate": 90,
         "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
         "critical-threshold": 80,
         "format": "{icon} {temperatureC}°C",
@@ -83,7 +68,6 @@
         ]
     },
     "pulseaudio": {
-        "rotate": 90,
         "format": "{icon}   {volume}%",
         "format-muted": "MUTE ",
         "format-icons": {
@@ -99,6 +83,6 @@
             ]
         },
         "scroll-step": 5,
-        "on-click": "pamixer -t",
+        "on-click": "pamixer -t"
     }
 }
