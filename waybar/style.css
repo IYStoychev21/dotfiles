@@ -14,7 +14,7 @@ window#waybar {
 .modules-center {
   border-radius: 6px;
   background: #181926;
-  padding: 12px 0;
+  padding: 4px 8px;
 }
 tooltip {
   color: #a5adcb;
@@ -27,6 +27,9 @@ tooltip * {
   text-shadow: none;
 }
 .modules-center {
+  background: none;
+  min-width: 0;
+  padding: 0;
 }
 
 #custom-sep {
